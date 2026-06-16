@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRZ AI - Outbound Calling Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glow-background"></div>
+    
+    <header class="nav-wrapper">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="logo">
+                    <div class="logo-box logo-box-round">
+                        <img src="img/drazze-logo.png" alt="Drazze" class="site-logo site-logo-round">
+                    </div>
+                </a>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="#features" data-i18n="nav_products">Продукты</a>
+                <a href="#tokenomics" data-i18n="nav_tokenomics">Токеномика</a>
+                <a href="#exchange" data-i18n="nav_exchange">Обмен</a>
+                <a href="#drazzewin" data-i18n="nav_drazzewin">DrazzeWin</a>
+                <a href="#faq" data-i18n="nav_faq">FAQ</a>
+            </div>
+            <div class="nav-actions">
+                <button class="lang-toggle-btn" id="lang-toggle" type="button" aria-label="Switch language">ENG</button>
+                <a href="https://t.me/drazze_game" target="_blank" rel="noopener noreferrer" class="btn btn-contact" data-i18n="nav_contact">Связаться</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <h1 data-i18n="hero_title">Экосистема <span class="neon-brand">Drazze</span>.<br>Создана для результатов.</h1>
+                    <p data-i18n="hero_subtitle">Purpose-built features that turn lead lists into qualified conversations —<br>proven in financial services, ready for your industry.</p>
+                    
+                    <a href="https://t.me/drazzestart_bot" target="_blank" class="btn btn-primary btn-large" data-i18n="hero_cta">Подробнее <span class="arrow">→</span></a>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-image-container">
+                        <img src="img/astronaut.png" alt="Astronaut" class="astronaut-img">
+
+                        <div class="floating-tag tag-top">
+                            <span class="tag-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 7H18V6a4 4 0 0 0-8 0v1H9a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M13 6a2 2 0 0 0-4 0v1h4V6z"/></svg>
+                            </span>
+                            <span data-i18n="tag_wallets">11.000+ кошельков</span>
+                        </div>
+                        <div class="floating-tag tag-middle">
+                            <span class="tag-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v12"/><path d="M15 9.5a3 3 0 1 0-6 0 3 3 0 0 0 6 0z"/></svg>
+                            </span>
+                            <span data-i18n="tag_holders">5000+ держателей токена</span>
+                        </div>
+                        <div class="floating-tag tag-bottom">
+                            <span class="tag-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </span>
+                            <span data-i18n="tag_partners">40+ крупных партнеров</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="features-title-area">
+                <span class="badge" data-i18n="feat_badge">Продукты</span>
+                <h2 data-i18n="feat_title">Наши продукты<br>и достижения</h2>
+            </div>
+            <div class="carousel-controls">
+                <button class="control-btn prev" aria-label="Previous">←</button>
+                <button class="control-btn next" aria-label="Next">→</button>
+            </div>
+            <div class="cards-carousel-container">
+                <div class="features-grid" id="products-carousel">
+                    <div class="feature-item">
+                        <div class="feature-card-visual">
+                            <span class="product-number">01</span>
+                            <div class="feature-icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/></svg>
+                            </div>
+                        </div>
+                        <div class="feature-card-content">
+                            <h4 data-i18n="prod1_title">iGaming-платформа DrazzeWin</h4>
+                            <p data-i18n="prod1_desc">Лицензированное онлайн-казино с сотнями игр от ведущих провайдеров: слоты, рулетка, покер, live-казино, джекпоты и турниры. VIP-клуб, промоакции и поддержка криптовалют USDT, TON и DRZ.</p>
+                            <a href="https://drazzewin.com/" target="_blank" rel="noopener noreferrer" class="feature-link" data-i18n="prod1_link">Перейти на drazzewin.com →</a>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-card-visual">
+                            <span class="product-number">02</span>
+                            <div class="feature-icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                        </div>
+                        <div class="feature-card-content">
+                            <h4 data-i18n="prod2_title">VPN</h4>
+                            <p data-i18n="prod2_desc">DRAZZE предоставляет собственный безопасный VPN в подарок после активации контракта на 42 токена. Количество доступных серверов для подключения зависит от вашего ранга в проекте. VPN позволяет обходить блокировки и обеспечивает стабильный доступ к интернет-ресурсам.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-card-visual">
+                            <span class="product-number">03</span>
+                            <div class="feature-icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                            </div>
+                        </div>
+                        <div class="feature-card-content">
+                            <h4 data-i18n="prod3_title">Встроенный P2P-обменник</h4>
+                            <p data-i18n="prod3_desc">Работает на смарт-контракте, обеспечивая полностью автоматизированные и безопасные сделки 24/7. Стейкинг-начисления происходят ежесекундно, а токены можно приобретать напрямую у других участников через бота по рыночной цене.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-card-visual">
+                            <span class="product-number">04</span>
+                            <div class="feature-icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h10"/></svg>
+                            </div>
+                        </div>
+                        <div class="feature-card-content">
+                            <h4 data-i18n="prod4_title">Бонусы KPI</h4>
+                            <p data-i18n="prod4_desc">Новая KPI-система бонусов для лидеров с ежемесячным пулом в 1 050 000 DRZ. Вознаграждение выплачивается за выполнение условий по объёмам структуры в соответствии с вашим рангом, при этом учитывается не более 40% от самой сильной ветки. Лидеры могут получать бонусы за все KPI-уровни, соответствующие их статусу и ниже.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-studies" id="tokenomics">
+            <div class="case-header">
+                <span class="badge" data-i18n="case_badge">Токеномика</span>
+                <h2 data-i18n="case_title">Экономика токена<br>DRZ</h2>
+            </div>
+            
+            <div class="case-container">
+                <div class="case-stats">
+                    <div class="stat-box">
+                        <div class="stat-num" data-i18n="stat1_num">200,000,000</div>
+                        <div class="stat-desc" data-i18n="stat1_desc">Общая эмиссия монет</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-num" data-i18n="stat2_num">90%</div>
+                        <div class="stat-desc" data-i18n="stat2_desc">Токенов вне рынка заблокированы или в стейкинге</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-num" data-i18n="stat3_num">22%</div>
+                        <div class="stat-desc" data-i18n="stat3_desc">Максимальная доходность DeFi-стейкинга</div>
+                    </div>
+                </div>
+
+                <div class="case-main">
+                    <div class="case-card-stack">
+                        <div class="stack-back-2"></div>
+                        <div class="stack-back-1"></div>
+                        <div class="case-main-card">
+                            <div class="case-tags">
+                                <span data-i18n="case_tag1">25% · Ликвидность</span>
+                                <span data-i18n="case_tag2">20% · Команда</span>
+                                <span data-i18n="case_tag3">15% · Маркетинг</span>
+                            </div>
+                            <h3 data-i18n="case_card_title">Дефляционная модель токена</h3>
+                            
+                            <div class="case-section">
+                                <h4 data-i18n="case_challenge">Снижение эмиссии:</h4>
+                                <p data-i18n="case_challenge_desc">Начиная с 7 января 2026 года первое понижение на 3%. Добыча токена будет снижаться каждые 6 месяцев на 1%.</p>
+                            </div>
+                            
+                            <div class="case-divider"></div>
+                            
+                            <div class="case-section">
+                                <h4 data-i18n="case_solution">Сжигание токенов:</h4>
+                                <p data-i18n="case_solution_desc">Часть прибыли экосистемы идёт на выкуп и сжигание токенов. Неиспользованные токены сжигаются. 15% — бонусный пул активных участников.</p>
+                            </div>
+                        </div>
+                        <div class="stack-front-folder"></div>
+                    </div>
+                </div>
+
+                <div class="case-quote">
+                    <div class="quote-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B873FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <p class="quote-label" data-i18n="case_quote_label">DeFi Стейкинг · 15% — 22%</p>
+                    <p data-i18n="case_quote_text">Удерживайте токены DRZ и получайте вознаграждение от 15% до 22% в месяц. DeFi-стейкинг распределяется постепенно, обеспечивая долгосрочную устойчивость и рост экосистемы DRAZZE.</p>
+                    <div class="case-quote-tags">
+                        <span data-i18n="staking_feat1">Высокая доходность</span>
+                        <span data-i18n="staking_feat2">Безопасность блокчейна</span>
+                        <span data-i18n="staking_feat3">Прозрачность операций</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exchange-block" id="exchange">
+                <div class="exchange-layout">
+                    <div class="exchange-hero-text">
+                        <h3 data-i18n="ex_title">Обмен USDT<br>на DRZ</h3>
+                        <p data-i18n="ex_subtitle">Мгновенный расчёт по актуальному курсу пула DRAZZE на TON. Купите токены DRZ напрямую через DEX — безопасно, прозрачно и по рыночной цене.</p>
+                    </div>
+
+                    <div class="exchange-widget">
+                        <div class="widget-header">
+                            <div class="widget-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                            </div>
+                            <span class="widget-label" data-i18n="ex_widget_title">Обмен</span>
+                            <span class="widget-tab" data-i18n="ex_buy">Купить</span>
+                        </div>
+
+                        <div class="swap-field">
+                            <div class="token-select">
+                                <div class="token-icon usdt-icon">
+                                    <img src="img/usdt.png" alt="USDT">
+                                </div>
+                                <span class="token-name">USDT</span>
+                            </div>
+                            <input type="number" class="swap-amount-input" id="usdt-input" value="1000" min="0" step="any" inputmode="decimal">
+                        </div>
+
+                        <div class="swap-divider">
+                            <div class="swap-line"></div>
+                            <div class="swap-arrow" aria-hidden="true">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+                            </div>
+                            <div class="swap-line"></div>
+                        </div>
+
+                        <div class="swap-field">
+                            <div class="token-select">
+                                <div class="token-icon drz-icon">
+                                    <img src="img/drazze-d.png" alt="DRZ">
+                                </div>
+                                <span class="token-name">DRZ</span>
+                            </div>
+                            <div class="swap-amount-output" id="drz-output">—</div>
+                        </div>
+
+                        <p class="rate-hint" id="rate-hint" data-i18n="ex_rate_loading">Загрузка курса...</p>
+
+                        <a href="https://www.geckoterminal.com/ton/pools/EQBWECuhrJldF2lQQWobH-vPWcaE3vPMMJZREmfv-5eek31y" id="exchange-btn" class="exchange-btn" target="_blank" rel="noopener noreferrer" data-i18n="ex_begin">Обменять</a>
+
+                        <a href="https://www.geckoterminal.com/ton/pools/EQBWECuhrJldF2lQQWobH-vPWcaE3vPMMJZREmfv-5eek31y" class="rate-link" target="_blank" rel="noopener noreferrer" data-i18n="ex_rate_link">Курс на GeckoTerminal →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="drazzewin" id="drazzewin">
+            <div class="drazzewin-header">
+                <span class="drazzewin-badge" data-i18n="win_badge">iGaming</span>
+                <h2 class="drazzewin-title">DRAZZE <span class="win-accent">WIN</span></h2>
+                <p class="drazzewin-subtitle" data-i18n="win_subtitle">Лицензированная платформа с играми от ведущих мировых провайдеров</p>
+            </div>
+
+            <div class="providers-marquee">
+                <div class="providers-track">
+                    <div class="providers-group">
+                        <span>Pragmatic Play</span>
+                        <span>Evolution Gaming</span>
+                        <span>NetEnt</span>
+                        <span>Microgaming</span>
+                        <span>Play'n GO</span>
+                        <span>Playtech</span>
+                        <span>Yggdrasil</span>
+                        <span>Betsoft</span>
+                        <span>Quickspin</span>
+                        <span>BGaming</span>
+                        <span>Endorphina</span>
+                        <span>Spinomenal</span>
+                        <span>Red Tiger</span>
+                        <span>Ezugi</span>
+                        <span>Amatic</span>
+                        <span>Igrosoft</span>
+                        <span>Novomatic</span>
+                        <span>Hacksaw Gaming</span>
+                        <span>Nolimit City</span>
+                        <span>Amusnet</span>
+                    </div>
+                    <div class="providers-group" aria-hidden="true">
+                        <span>Pragmatic Play</span>
+                        <span>Evolution Gaming</span>
+                        <span>NetEnt</span>
+                        <span>Microgaming</span>
+                        <span>Play'n GO</span>
+                        <span>Playtech</span>
+                        <span>Yggdrasil</span>
+                        <span>Betsoft</span>
+                        <span>Quickspin</span>
+                        <span>BGaming</span>
+                        <span>Endorphina</span>
+                        <span>Spinomenal</span>
+                        <span>Red Tiger</span>
+                        <span>Ezugi</span>
+                        <span>Amatic</span>
+                        <span>Igrosoft</span>
+                        <span>Novomatic</span>
+                        <span>Hacksaw Gaming</span>
+                        <span>Nolimit City</span>
+                        <span>Amusnet</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="drazzewin-content">
+                <div class="drazzewin-info">
+                    <h3 data-i18n="win_info_title">Лицензированная iGaming-платформа экосистемы DRAZZE</h3>
+                    <p class="win-info-desc" data-i18n="win_info_desc">DrazzeWin — это полноценное онлайн-казино с официальной лицензией регулятора Анжуан. Платформа объединяет сотни игр от топовых провайдеров, live-казино, турниры и VIP-программу. Поддерживаются криптовалюты USDT, TON и DRZ — играйте безопасно и с максимальным комфортом.</p>
+
+                    <ul class="win-features">
+                        <li data-i18n="win_feat1">Официальная iGaming-лицензия Anjouan</li>
+                        <li data-i18n="win_feat2">Слоты, рулетка, покер и live-казино</li>
+                        <li data-i18n="win_feat3">20+ мировых провайдеров игр</li>
+                        <li data-i18n="win_feat4">Криптоплатежи: USDT, TON, DRZ</li>
+                        <li data-i18n="win_feat5">VIP-клуб, джекпоты и турниры</li>
+                    </ul>
+
+                    <a href="https://drazzewin.com/" target="_blank" rel="noopener noreferrer" class="drazzewin-cta" data-i18n="win_cta">Играть на drazzewin.com →</a>
+
+                    <div class="win-links">
+                        <a href="https://t.me/drazze_game" target="_blank" rel="noopener noreferrer" class="win-link-item">
+                            <span class="win-link-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                            </span>
+                            <span data-i18n="win_telegram">Официальный канал</span>
+                        </a>
+                        <a href="Certified%20Drazze%20Limited%20License%20Certificate.pdf" target="_blank" rel="noopener noreferrer" class="win-link-item">
+                            <span class="win-link-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                            </span>
+                            <span data-i18n="win_license">Проверить лицензию</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="win-banners">
+                    <div class="win-banner">
+                        <video src="banners/hf_20260609_182613_34c738b1-e580-4068-ac9c-cb9c339ad775.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                    <div class="win-banner">
+                        <video src="banners/hf_20260609_183751_87b3920c-cf01-4a1e-947a-26d02693c690.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <h2 data-i18n="faq_title">Часто задаваемые вопросы</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        <span data-i18n="faq_q1">Законна ли деятельность DRAZZE?</span>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a1">Да. Компания Drazze Limited имеет iGaming-лицензию регулятора Анжуан (Union of Comoros). Информацию можно самостоятельно проверить в официальном реестре.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        <span data-i18n="faq_q2">Что такое «дефляционная модель» для токена?</span>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a2">Каждые 6 месяцев добыча уменьшается на 1%. Часть прибыли идет на выкуп и сжигание токенов, создавая дефицит и повышая их ценность.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        <span data-i18n="faq_q3">Что защищает проект от дампов и манипуляций?</span>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a3">Экономика DRZ построена на ограниченной эмиссии, дефляционной модели, снижении добычи, выкупе и сжигании и реальном использовании токена. Это снижает спекулятивное давление и смещает фокус на долгосрочную ценность.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        <span data-i18n="faq_q4">Почему выбран именно iGaming?</span>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a4">Это одна из самых прибыльных и устойчивых индустрий в мире с постоянным ростом оборотом.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        <span data-i18n="faq_q5">Что такое пулы дохода?</span>
+                        <span class="faq-toggle" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a5">Механизм распределения части прибыли iGaming между участниками.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
