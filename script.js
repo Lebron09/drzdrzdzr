@@ -316,6 +316,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (usdtInput) {
         usdtInput.addEventListener('input', updateExchangeOutput);
+
+        const resetMobileViewport = () => {
+            document.documentElement.scrollLeft = 0;
+            document.body.scrollLeft = 0;
+            if (window.visualViewport) {
+                window.scrollTo(0, window.scrollY);
+            }
+        };
+
+        usdtInput.addEventListener('blur', () => {
+            setTimeout(resetMobileViewport, 100);
+        });
+
+        usdtInput.addEventListener('focus', () => {
+            setTimeout(resetMobileViewport, 300);
+        });
     }
 
     if (exchangeBtn) {
